@@ -1,7 +1,7 @@
 Summary:	xkbfile library
 Name:		xorg-libxkbfile
 Version:	1.0.8
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libxkbfile-%{version}.tar.bz2
@@ -65,7 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libxkbfile.so
-%{_libdir}/libxkbfile.la
 %{_includedir}/X11/extensions/*.h
 %{_pkgconfigdir}/xkbfile.pc
 
